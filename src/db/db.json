@@ -1,0 +1,127 @@
+{
+    "careers": [
+      {
+        "career": "Software Developer",
+        "courses": [
+          "Full Stack Development",
+          "Frontend Development",
+          "Backend Development",
+          "JavaScript",
+          "Node.js",
+          "React.js",
+          "Angular",
+          "Vue.js",
+          "Database Management"
+        ]
+      },
+      {
+        "career": "Data Scientist",
+        "courses": [
+          "Data Analysis",
+          "Machine Learning",
+          "Python for Data Science",
+          "Data Visualization",
+          "Big Data Technologies",
+          "SQL & NoSQL Databases",
+          "Deep Learning",
+          "Statistics"
+        ]
+      },
+      {
+        "career": "AI Engineer",
+        "courses": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Natural Language Processing",
+          "Computer Vision",
+          "TensorFlow",
+          "PyTorch",
+          "Reinforcement Learning"
+        ]
+      },
+      {
+        "career": "Web Designer",
+        "courses": [
+          "Web Design Fundamentals",
+          "UX/UI Design",
+          "HTML/CSS",
+          "Responsive Web Design",
+          "Figma",
+          "Adobe XD",
+          "Sketch",
+          "Wireframing"
+        ]
+      },
+      {
+        "career": "Mobile App Developer",
+        "courses": [
+          "Android Development",
+          "iOS Development",
+          "Flutter",
+          "React Native",
+          "Mobile UI/UX Design",
+          "Swift",
+          "Java/Kotlin for Android"
+        ]
+      },
+      {
+        "career": "Cybersecurity Specialist",
+        "courses": [
+          "Ethical Hacking",
+          "Network Security",
+          "Cryptography",
+          "Penetration Testing",
+          "Cloud Security",
+          "Security Operations",
+          "Digital Forensics"
+        ]
+      },
+      {
+        "career": "Database Administrator",
+        "courses": [
+          "SQL & NoSQL Databases",
+          "Database Management Systems",
+          "Data Warehousing",
+          "Backup and Recovery",
+          "Database Security",
+          "Performance Tuning"
+        ]
+      },
+      {
+        "career": "Cloud Engineer",
+        "courses": [
+          "Cloud Computing",
+          "AWS Certified Solutions Architect",
+          "Azure Fundamentals",
+          "Google Cloud Platform",
+          "DevOps and CI/CD",
+          "Cloud Infrastructure"
+        ]
+      },
+      {
+        "career": "Game Developer",
+        "courses": [
+          "Game Design",
+          "Game Development",
+          "Unity 3D",
+          "Unreal Engine",
+          "C# for Game Development",
+          "Game Physics",
+          "Artificial Intelligence in Games"
+        ]
+      },
+      {
+        "career": "Blockchain Developer",
+        "courses": [
+          "Blockchain Basics",
+          "Smart Contracts",
+          "Ethereum",
+          "Solidity",
+          "Hyperledger",
+          "Cryptocurrency",
+          "Decentralized Applications (dApps)"
+        ]
+      }
+    ]
+  }
+  

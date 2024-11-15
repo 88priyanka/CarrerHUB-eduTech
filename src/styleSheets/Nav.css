@@ -1,0 +1,70 @@
+  
+  /* NAVIGATION */
+  .nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 97vw;
+    padding: 0 1rem;
+    z-index: 100;
+  }
+  
+  /* nav and stickly class at the same time */
+  .nav.sticky,.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .nav__logo {
+    height: 3.5rem;
+    transition: all 0.3s;
+  }
+  
+  .nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+    cursor:pointer;
+  }
+  
+  .nav__item {
+    margin-left: 4rem;
+  }
+  
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 16px;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3rem;
+    background-color: #5ec576;
+    color: #222;
+  }
+  svg{
+    border: 2px solid #5ec576;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: white;
+  }
+  
+  .nav__link--btn:hover,
+  svg:hover,
+  .nav__link--btn:active {
+    border-radius: 20px;
+    color: inherit;
+    color: #4bbb7d;
+    background-color: #333;
+  }

@@ -1,0 +1,86 @@
+#carrer-expose{
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    
+}
+.carrer-courses{
+    border-right: 2px solid black;
+    overflow-y: scroll;   
+    width: 25%;
+    background-color: aqua;
+    /* position: fixed; */
+}
+.career{
+    border-right:1px solid rgb(1, 255, 81);
+    border-bottom:1px solid rgb(1, 255, 81) ;
+    width: 80%;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left:0;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(1, 255, 81);
+}
+.career:hover{
+     opacity: 0.5;
+}
+
+.career-explain{
+    align-items: center;
+   /*  position:absolute;
+    top: 15vh;
+    left: 20vw;
+    right:5vw; */
+    overflow-y: scroll;
+    z-index: 0;
+    width: 50%;
+}
+#career-expose{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#career-courses , #career-explain{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 20%;
+    
+}
+#career-courses{
+    width: 30%;
+    align-items: center;
+    overflow-y: scroll;
+}
+#career-explain{
+    
+    width: 70%;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.description{
+    margin: 0 3.5%;
+    line-height: 200%;
+    
+}
+#career-explain h3{
+    align-items:flex-start;
+    margin-top: 5%;
+}
+.path-set{
+    color: white;
+    background-color: #5ec576;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 60px;
+    border-radius: 5px;
+}
+.path-set:hover{
+    background-color: #4bbb7d;
+    
+}

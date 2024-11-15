@@ -1,0 +1,116 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+#chatbot-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5ec576;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-popup {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #5ec576;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.chat-box {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.user-message {
+  text-align: right;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: rgba(184, 184, 184, 0.564);
+  color: rgb(10, 9, 9);
+  border-radius: 15px;
+}
+
+.bot-message {
+  text-align: left;
+  margin: 10px 5px;
+  padding: 10px;
+  background-color: #4ddd7d;
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.885);
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.chat-input button {
+  background-color: #5ec576;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #4ddd7d;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+#chatbot-toggle-btn svg{
+  background-color: #5ec576;
+  color: rgb(255, 255, 255);
+}

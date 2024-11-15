@@ -1,0 +1,15 @@
+.article{
+    display: flex;
+    width: 60vw;
+    height: 250px;
+    margin: 3% 3%;
+    box-shadow: 1px 1px 5px black;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+    overflow-y: hidden;
+  }
+  .article img{
+    border-radius: 20px;
+    margin: 5px;
+  }
